@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dikshakushwah0408icloud.com/esep-webhooks/src/EsepWebhook/EsepWebhook/src/EsepWebhook/EsepWebhook.csproj": {}
+  },
+  "projects": {
+    "/Users/dikshakushwah0408icloud.com/esep-webhooks/src/EsepWebhook/EsepWebhook/src/EsepWebhook/EsepWebhook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dikshakushwah0408icloud.com/esep-webhooks/src/EsepWebhook/EsepWebhook/src/EsepWebhook/EsepWebhook.csproj",
+        "projectName": "EsepWebhook",
+        "projectPath": "/Users/dikshakushwah0408icloud.com/esep-webhooks/src/EsepWebhook/EsepWebhook/src/EsepWebhook/EsepWebhook.csproj",
+        "packagesPath": "/Users/dikshakushwah0408icloud.com/.nuget/packages/",
+        "outputPath": "/Users/dikshakushwah0408icloud.com/esep-webhooks/src/EsepWebhook/EsepWebhook/src/EsepWebhook/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dikshakushwah0408icloud.com/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Crossgen2.osx-arm64",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.21, 8.0.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[8.0.21, 8.0.21]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

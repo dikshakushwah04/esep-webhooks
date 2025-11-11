@@ -1,0 +1,6 @@
+{
+  "body": "{\"action\":\"opened\",\"issue\":{\"number\":999,\"title\":\"Manual Test Issue\",\"html_url\":\"https://github.com/test\"}}",
+  "headers": {
+    "content-type": "application/json"
+  }
+}
